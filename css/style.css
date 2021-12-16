@@ -140,5 +140,11 @@ li{
       display:block;
       font-size: 30 px;
   }
+.contato{
+    display: block;
+}
 
-
+#conteudo ul{
+    margin: auto;
+    text-align: center;
+}
