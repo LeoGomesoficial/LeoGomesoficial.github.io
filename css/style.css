@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.fundo{
+    background-color: crimson;
+}
+
+#menu{
+    background-color: rgba(10, 146, 71, 0.9);
+    width:100%;
+
+}
+
+li{
+    display: inline;
+}
+
+#menu ul li a {
+ text-decoration: none;
+ color: white;
+ padding: 20px;
+ display: inline-block;
+
+}
+
+#menu ul li a:hover{
+    background-color: rgb(228, 24, 58);
+
+}
+
+#conteudo{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(141, 202, 144);
+    display:flex;
+    justify-content: space-between;
+}
+
+.caixa{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 180px;
+    border-radius: 10px;
+
+}
+
+
+.img-um{
+    background-image: url(../img/formatura.jpg);
+    background-position: center; /*centralizando a imagem nos dois eixos */
+    background-size: cover; /* Cobrindo todo o fundo do elemento*/
+
+}
+.img-dois{
+
+    background-image:url(../img/44.jpg);
+    background-position: center;/*centralizando a imagem nos dois eixos*/
+    background-size: cover;/*Cobrindo todo o fundo do elemento*/
+
+}
+
+.img-tres{
+
+    background-image: url(../img/alexandr\ pires.jpg);
+    background-position: center;/*centralizando a imagem nos dois eixos*/
+    background-size: cover;/*Cobrindo todo o fundo do elemento*/
+    }
+
+.img-quatro{
+
+    background-image: url(../img/ale.jpg);
+    background-position:top;/*centralizando a imagem nos dois eixos*/
+    background-size: cover ;/*Cobrindo todo o fundo  do elemento*/
+
+}
+.img-cinco{
+
+    background-image: url(../img/spc.jpg);
+    background-position: top;/*centralizando a imagem nos dois eixos*/
+    background-size: cover;/*Cobrindo todo o fundo do elemento*/
+
+
+    }
+.img-seis{
+
+     background-image: url(../img/55555555555.jpg);
+     background-position: center;/*centralizando a imagem nos dois eixos*/
+     background-size: cover;/*Cobrindo todo o fundo do elemento*/
+
+
+
+}
+.img-sete{
+
+     background-image: url(../img/doido.jpg);
+     background-position: center;/*centralizando a imagem nos dois eixos*/
+     background-size: cover;/*Cobrindo todo o fundo do elemento*/
+
+}
+.img-oito{
+
+     background-image: url(../img/65478945454454.jpg);
+     background-position: center;/*centralizando a imagem nos dois eixos*/
+     background-size: cover;/*Cobrindo todo o fundo do elemento*/
+}
+
+     .img-nove{
+
+    background-image: url(../img/neusa.jpg);
+    background-position: center;/*centralizando a imagem nos dois eixos*/
+    background-size:300px;/*Cobrindo todo o fundo do elemento*/
+
+    
+    }
+
+     .img-dez{
+
+    background-image:url(../img/11111111111111111111.jpg);
+    background-position: center;/*centralizando a imagem nos dois eixos*/
+    background-size: cover;/*Cobrindo todo o fundo do elemeno*/
+    
+     }
+#conteudo div h2{
+    background-color: rgba(201, 37, 100, 0.7);
+    color:white;
+    font-size: 30 px;
+
+}
+  #conteudo div a{
+      text-decoration: none;
+      color:rgb(255, 255, 255);
+      background-color: rgba(0,0,0,0.7);
+      display:block;
+      font-size: 30 px;
+  }
+
+
