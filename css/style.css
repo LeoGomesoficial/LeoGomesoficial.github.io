@@ -148,3 +148,7 @@ li{
     margin: auto;
     text-align: center;
 }
+
+.carousel, .carousel-item img{
+    height: 700px;
+}
